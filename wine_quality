@@ -1,0 +1,3 @@
+This Python script builds a machine learning model to predict whether a red wine is of 'good' or 'bad' quality based on its chemical properties.
+
+It uses the pandas library to load and prepare the data, converting the original 1-10 quality score into a simple binary classification. The script then uses scikit-learn to train a Decision Tree Classifier on 80% of the data. Finally, it evaluates the model's performance on the remaining 20% of unseen data, reporting its accuracy and displaying a confusion matrix to visualize the prediction results.
